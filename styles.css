@@ -13,11 +13,13 @@ html {
 }
 
 img {
-    max-width: 10%;
-    max-height: 10%;
+    max-width: 1920px;
+    max-height: auto;
+    display: grid;
+    justify-content: center;
 }
 
 .image {
-    max-width: 1080px;
-    max-height: 300px;
-}
+    resize: both;
+    overflow: auto;
+}   

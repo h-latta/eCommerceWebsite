@@ -17,12 +17,12 @@ img {
     max-height: auto;
 }
 
-.image {
-    overflow: auto;
+.homepage {
+    overflow: hidden;
     width: 100%;
-    height: 100%;
+    height: 300px;
     object-fit: revert;
-
+    background-image: url(assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
 }   
 
 .topnav {
@@ -57,4 +57,11 @@ img {
     overflow: hidden;
     width: 100%;
     height: 162px;
+    display: inline-flex;
+}
+
+.hometext {
+    color: white;
+    display: flex;
+    align-items: center;
 }

@@ -43,6 +43,13 @@ img {
     align-items: center;
     padding-left: 50px;
 }
+.cart-button{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    margin-left: 30rem;
+}
 
 .flex {
     display: flex;
@@ -67,4 +74,8 @@ img {
     justify-content: center;
     padding-top: 130px;
     font-size: xx-large;
+}
+
+.product_search {
+
 }
